@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+html,body {
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+   
+}
+
+.game-screen-container {
+    width:65%;
+    height: 100%;
+    border: 1px solid black
+}
+.input-screen-container {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-screen {
+    width:100%;
+    height: 88%;
+    border: 1px solid black;
+    border-left:none;
+    padding: 0px 20px;
+    overflow-y: scroll;
+}
+
+.input-option {
+    width: 100%;
+    height:12%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 20px;
+}
+
+.input-option > textarea {
+    width: 80%;
+    resize:none;
+    border-radius: 5px;
+    padding: 4px 4px;
+}
+.input-option > i {
+    font-size: 17px;
+}
+
+.input-option > i:hover {
+    cursor: pointer;
+}
+
+
+.red {
+    color: red;
+}
